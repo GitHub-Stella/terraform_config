@@ -1,4 +1,4 @@
-variable "fichier" {
+variable "fichiers" {
     type = set(string)
     default = [
         "dossier/fichier1.txt",
