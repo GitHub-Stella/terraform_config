@@ -1,7 +1,7 @@
 resource "local_file" "fichier" {
     content = ""
     filename = each.value
-    for_each = toset(var.fichiers)
+    for_each = toset(var.fichier)
 }
 
 # pour mettre une adresse de répertoire une fois pour tous les fichier:
